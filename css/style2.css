@@ -28,7 +28,7 @@ header {
     left: 0;
     width: 100%;
     z-index: 1000;
-    background: #886c7f;
+    background: #8903e2;
     padding: 20px;
     text-align: center;
 
@@ -40,7 +40,7 @@ header {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #655560;
+    background-color: #b57be0;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -86,7 +86,7 @@ header {
 .same-line {
     display: flex;
     justify-content: space-between;
-    background-color: #655560;
+    background-color: #bd89ac;
 
 }
 
@@ -123,7 +123,7 @@ section:nth-child(4) {
 }
 
 section:nth-child(5) {
-    color: #b558e6;
+    color: #e3e3e3;
 }
 
 section .container {

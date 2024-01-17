@@ -1,95 +1,144 @@
-<!DOCTYPE html>
-<html>
-
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style2.css">
     <script src="js/scripts.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<header>
-
-    <nav class="same-line">
-        <div class="topnav left">
-            <a href="#home">Jason Devers</a>
-        </div>
-        <div class="topnav right">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#project">Projects</a>
-            <!-- <a href="#about">About</a> -->
-        </div>
-    </nav>
-</header>
 
 <body>
+    <header>
+        <nav class="same-line">
+            <div class="topnav left">
+                <a href="#news">Gregory Dellamura</a>
+            </div>
+            <div class="topnav right">
+                <a href="#home">Home</a>
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+            </div>
+        </nav>
+    </header>
     <section id="home">
 
-        <div class="same-line-panel">
-            <img src="https://media.licdn.com/dms/image/C4E03AQFwxNdQ6iUv3g/profile-displayphoto-shrink_800_800/0/1603834531317?e=2147483647&v=beta&t=HknrB-eU7SJtjnIw0hTMP3dAO5W4f_6gS3VF8cWMeTk" alt="logo" width="200" height="200">  
-            <!-- this was the only way I could get the image to show up -->
-            <div class="center">
-                <h1>Jason Devers</h1>
-                <h2>Undergraduate Student</h2>
-                <h3>Computer Science</h3>
-            </div>
-
+        <div class="center">
+            <img src="/Users/g.dellamura/CMSC388T/p1-web-template/ravenbird.jpeg" alt="Profile Picture">
+            <h1>Gregory Dellamura</h1>
+            <h2>Undergraduate Student</h2>
+            <h3>Major: Computer Science, Minor: Astronomy</h3>
         </div>
+
     </section>
     <section id="about">
-        <div class="container">
-            <h1 class="section-header">About Me</h1>
-        </div>
-        <div class="same-line-panel reveal">
-<!-- <img id="logo" src=logo.png> -->
-            <div class="panel">
-                <p>My favorite number is 2. Check out what I mean<a href="https://github.com/jsondevers/overflown/blob/main/writing/beauty-of-two/README.md" > here</a> </p>
-            </div>
-
-        </div>
-    </section>
-    <section id="project">
-        <div class="container">
-            <h1 class="section-header">Projects</h1>
-            <div class="row">
-                <div class="column reveal" style="background-color:#A4969B;">
-                    <h2>Parallel Programming Conway's Game of Life</h2>
-                    <p> Designed and optimized parallel algorithms to efficiently distribute the computational workload across 512 processes, resulting in a significant reduction in overall execution time and increased scalability of the application. </p>
-                </div>
-                <div class="column reveal" style="background-color:#BFB5B9;">
-                    <h2>RA Bot</h2>
-                    <p>Designed a bot to interact with my residents via GroupMe while I'm in class.</p>
-                    <p>RA bot is able to remind residents of important events,
-                        check for profanity, help with FAQs, let them know when
-                        there’s chicken-tenders at the dining hall, and play games</p>
-                </div>
-                <div class="column reveal" style="background-color:#D1CACD;">
-                    <h2>Heart Attack Analysis</h2>
-                    <p>Created linear regressions, trained and tested models, then
-                        creating classifiers (Decision Trees, KNN, Random Forest)
-                        that had 85%+ accuracy, and more.</p>
+        <div class="container reveal">
+            <h2>About</h2>
+            <div class="text-container">
+                <div class="text-box">
+                    <h3>$Money Never Sleeps$</h3>
+                    <p>
+                        Born: November 16th, 2001
+                        From: Frederick, Maryland
+                        High Shool: Walkersville
+                        College: University Of Maryland
+                    </p>
+                    <p>
+                        As a Computer Science Major, I enjoy solving challenging problems 
+                        using my background in Java, Linear Algebra Statistics, Discrete Math, 
+                        and Optimization Algorithms. I'm most experienced in Object-Oriented 
+                        Programming and creating data structures that help organize, manage, 
+                        and store data.
+                    </p>
+                    <p>
+                        Outside of my career path, I enjoy watching sports and anime and 
+                        playing video games in my free time. My favorite sports teams are 
+                        the Baltimore Orioles, Baltimore Ravens and Washington Capitals.
+                        My favorite anime are Spy X Family, Naruto, Horimiya, Fate, and
+                        Classroom of the Elite. My favorite video games are Destiny,
+                        Overwatch, Minecraft, Nintendo Games, and Clash of Clans.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
-<!-- Autograder Comment --><!-- Autograder Comment --></body>
-<footer>
-    <div class="leftFooter">
-        jdevers1@umd.edu
-    </div>
-    <div class="rightFooter">
-        <a href="https://github.com/jsondevers" class="fa fa-github" style="font-size:36px"></a>
 
-    </div>
-    <div class="rightFooterr">
-        <a href="https://www.linkedin.com/in/jsondev/" class="fa fa-linkedin" style="font-size:36px"></a>
+    <section id="projects">
+        <div class="container reveal">
+            <h2>Projects</h2>
+            <div class="text-container">
+                <div class="text-box">
+                    <h3>Iniquity+ : Fall 2023</h3>
+                    <p>
+                        - Designed, implemented, and extended compilers, interpreters, parsers, 
+                          and ASTs for working sub-versions of the Racket language.
+                        - Developed a better understanding of the functionality of compilers for 
+                          high-level languages.
+                    </p>
+                </div>
+                <div class="text-box">
+                    <h3>Clustering + Sliding Midpoint kd-tree : Spring 2023</h3>
+                    <p>
+                        - Constructed a variant of the kd-Tree data structure that stores a 
+                          set of points on a 2D grid, called a Sliding-Midpoint kd-Tree.
+                        - Optimized and implemented an algorithm to make the tree/grid rebalance 
+                          itself and keep cells as square as possible. 
+                        - Implemented a clustering algorithm that maps points that are closest 
+                          to cluster centers.
+                        - Integrated software engineering, data structures, data science, and 
+                          machine learning all into one project.
 
-    </div>
-    <div class="rightFooterr">
-        <a href="https://www.instagram.com/deversfit/" class="fa fa-instagram" style="font-size:36px"></a>
+                    </p>
+                </div>
+                <div class="text-box">
+                    <h3>Finding the Relationships of Many Aspects in Japanese Animation : Fall 2022</h3>
+                    <p>
+                        - Collaborated with another student in Jupyter and Google Collab.
+                        - Web-scraped MyAnimeList's database and used the data to determine 
+                          if there is a trend of characteristics for certain Japanese animations 
+                          that contribute to their popularity.
+                        - Organized, displayed, visualized, interpreted, and recorded the data 
+                          using Pandas, Numpy, and Seaborn libraries
+                        - Increased experience with web-scraping, SQL, Beautiful Soup, 
+                          data visualization, data interpretation, git, and Docker.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section id="contact">
+        <div class="container reveal">
+            <h2>Fun Facts</h2>
+            <div class="text-container">
+                <div class="text-box">
+                    <h3>Minecraft Server</h3>
+                    <p>
+                        I have been a part of a small"ish" minecraft parkour, maze and puzzle,
+                        server IP:zero.minr.org for over 10 years. This server is actually one of 
+                        the longest active servers that has been running since 2010 and has had 
+                        over 500,000 unique visitors. This server has over 600 challenging courses 
+                        made by community members. Of these 600+, I have made two puzzle maps: 
+                        Zurdite and Ikorite, that has had over 2000 completions and even more 
+                        attempts!
+                    </p>
+                </div>
+                <div class="text-box">
+                    <h3>Published Unkown Astroid Data</h3>
+                    <p>
+                        In Spring 2023, I worked with a team of fellow students to discover the
+                        rotation period of asteroid 3214 Makarenko. Over the course of the semester
+                        we prepared to observe Makarenko over a 2 week period in May. During
+                        observation nights, we'd stay up until 7am observing this asteroid.
+                        At the end of the semseter, we published our findings in the Minor Planet
+                        Bulletin for anyone to access.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="footer">
+        <p>Gregory Dellamura<br>
+            <a href="gdellamu@terpmail.umd.edu"></a>
+            <a href="https://github.com/Karasu1116"></a>
+            <a href="https://www.linkedin.com/in/gregory-dellamura/"></a>
+            <a href="https://twitter.com/Karasu_isRaven"></a>
+        </p>
     </div>
-</footer>
-</footer>
-
-</html>

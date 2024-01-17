@@ -2,9 +2,9 @@
 
 Have you:
 
-- [ ] added profile picture
-- [ ] intro/bio
-- [ ] talked about a project (3x)
-- [ ] github profile
-- [ ] linkedin profile (if you have one)
+- [x] added profile picture
+- [x] intro/bio
+- [x] talked about a project (3x)
+- [x] github profile
+- [x] linkedin profile (if you have one)
 - [ ] made at least one change to the website to personalize it

@@ -12,3 +12,4 @@ Have you:
 - Custome Changes: 
      - Added Fun Facts Section
      - Gave the webpage the ability to be loaded without caching
+     - Changed colors of header and footer
